@@ -83,9 +83,9 @@
     font-size: 48px;
   }
   .vertical-line {
-    width: 55%; /* Make it span the full width for horizontal layout */
-    height: 2px; /* Adjust thickness for horizontal line */
-    margin: 10px 0; /* Vertical spacing between items */
+    width: 30%; /* Make it span the full width for horizontal layout */
+    height: 1px; /* Adjust thickness for horizontal line */
+    margin: 10px 0 20px 0px;    /* Vertical spacing between items */
     align-self: auto; /* Reset alignment for horizontal line */
   }
 
