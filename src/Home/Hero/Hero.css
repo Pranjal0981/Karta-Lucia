@@ -65,24 +65,9 @@
     width: 395px;
 }
 
-.flip-word {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  opacity: 0;
-  transform: scale(0.5) rotateX(90deg);
-  /* Start small and rotated */
-  transform-origin: bottom;
-  transition: opacity 0.6s, transform 0.6s ease-out;
-}
 
-.flip-word.active {
-  opacity: 1;
-  transform: scale(1) rotateX(0deg);
-  /* Zoom in to original size */
-  transform-origin: bottom;
-}
+
+
 
 .flip-text{
     font-size: 4rem;

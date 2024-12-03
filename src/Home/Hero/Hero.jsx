@@ -4,7 +4,7 @@ import "./Hero.css";
 import BG from "../../Assets/Hero/Hero-BG.mp4";
 
 const HeroSection = () => {
-  const words = ["Create", "Innovate", "Inspire"];
+  const words = ['Creation is an addiction'];
   const [currentWordIndex, setCurrentWordIndex] = useState(0);
 
   useEffect(() => {
